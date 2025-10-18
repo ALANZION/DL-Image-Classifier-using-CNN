@@ -62,9 +62,9 @@ Fully Connected: 10 neurons (output), Softmax
 ---
 ## PROGRAM
 
-### Name: Sanjay C
+### Name: ALAN ZION H
 
-### Register Number: 212223240150
+### Register Number: 212223240004
  
 ```python
 import torch
