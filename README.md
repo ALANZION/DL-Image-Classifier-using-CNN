@@ -186,8 +186,8 @@ def train_model(model, train_loader, num_epochs=5):
             optimizer.step()
 
             running_loss += loss.item()
-            print('Name:Sanjay C')
-            print('Register Number: 212223240150')
+            print('Name:ALAN ZION H')
+            print('Register Number: 212223240004')
         
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 ```
@@ -221,22 +221,22 @@ def test_model(model, test_loader):
 
     accuracy = correct / total
     
-    print('Name:Sanjay C')
-    print('Register Number: 212223240150')
+    print('Name:ALAN ZION H')
+    print('Register Number:212223240004')
     print(f'Test Accuracy: {accuracy:.4f}')
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
     plt.figure(figsize=(8, 6))
-    print('Name:Sanjay C')
-    print('Register Number: 212223240150')
+    print('Name:ALAN ZION H')
+    print('Register Number: 212223240004')
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=test_dataset.classes, yticklabels=test_dataset.classes)
     plt.xlabel('Predicted')
     plt.ylabel('Actual')
     plt.title('Confusion Matrix')
     plt.show()
     # Print classification report
-    print('Name:Sanjay C')
-    print('Register Number: 212223240150')
+    print('Name:ALAN ZION H')
+    print('Register Number: 212223240004')
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=[str(i) for i in range(10)]))
 ```
@@ -263,8 +263,8 @@ def predict_image(model, image_index, dataset):
     class_names = [str(i) for i in range(10)]
 
     
-    print('Name:Sanjay C')
-    print('Register Number: 212223240150')
+    print('Name:ALAN ZION H')
+    print('Register Number: 212223240004')
     plt.imshow(image.cpu().squeeze(), cmap="gray")
     plt.title(f'Actual: {class_names[label]}\nPredicted: {class_names[predicted.item()]}')
     plt.axis("off")
@@ -284,22 +284,22 @@ predict_image(model, image_index=80, dataset=test_dataset)
 
 ## Training Loss per Epoch
 
-<img width="311" height="655" alt="image" src="https://github.com/user-attachments/assets/0024e23f-0c60-4f1a-8355-4fb46dcb0a2f" />
-
+<img width="302" height="491" alt="image" src="https://github.com/user-attachments/assets/e49b8fd9-ab46-4d89-b8d2-8fae280a68d6" />
 
 ## Confusion Matrix
 
-<img width="822" height="762" alt="image" src="https://github.com/user-attachments/assets/e5583ed7-ebea-4597-97fa-d8ae8ecf3889" />
+<img width="773" height="640" alt="image" src="https://github.com/user-attachments/assets/45da4c16-8cb6-4596-8bd2-cd36d421acde" />
 
 
 ## Classification Report
 
-<img width="531" height="388" alt="image" src="https://github.com/user-attachments/assets/222e12dc-f8ee-418c-871c-3819c2972e76" />
+<img width="623" height="333" alt="image" src="https://github.com/user-attachments/assets/b27d6e35-bb5d-454b-aa70-bf81f8211a13" />
 
 
 ### New Sample Data Prediction
 
-<img width="481" height="572" alt="image" src="https://github.com/user-attachments/assets/f944e037-a484-42be-b558-5deb76a7434d" />
+<img width="521" height="467" alt="image" src="https://github.com/user-attachments/assets/3cf85ca3-b034-4fb1-8835-0d57a0f0a968" />
+
 
 
 ## RESULT
